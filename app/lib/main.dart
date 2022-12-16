@@ -1,3 +1,4 @@
+import 'package:app/pages/get_started_page.dart';
 import 'package:app/pages/splash_page.dart';
 import 'package:flutter/material.dart';
 
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: {
         '/': (context) => SplashPage(),
+        // '/started':(context) => GetStartedPage(),
       },
     );
   }
